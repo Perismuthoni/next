@@ -1,0 +1,22 @@
+.resume{
+    padding: 10px;
+    background-color: lawngreen;
+    text-align: center;
+}
+.column1 {
+    width: 20%;
+    padding-left: 10px;
+  }
+  .column2 {
+    width: 80%;
+  }
+  .row {
+     padding-left: 100px;
+      padding-top: 10px;
+      
+  }
+  .buttonh{
+    background-color: black;
+    color: white;
+    height: 25px;
+  }

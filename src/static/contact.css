@@ -9,3 +9,7 @@
     display: table;
     clear: both;
   }
+  .contact {
+    background-color: black;
+    color: red;
+  }

@@ -25,4 +25,8 @@
     transform: rotate(360deg);
   }
 }
+.credits {
+  background-color: black;
+  color: red;
 
+}

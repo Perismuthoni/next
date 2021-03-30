@@ -5,6 +5,7 @@ import { Facebook,Instagram,Linkedin,Whatsapp,Twitter,Github,Telephone,Gmail, Ma
 function Contact() {
   return (
    <>
+   <div className="contact">
 <div class="row">
   <div class="column">
     <p><b><u>Social Media</u></b></p>
@@ -27,10 +28,11 @@ function Contact() {
   <p><b><u>Quick LInks</u></b></p>
   
     <ul>skills</ul>
-    <ul>skills</ul>
-    <ul>skills</ul>
+    <ul>Blogs</ul>
+    <ul>resume</ul>
     <ul>skills</ul>
   
+</div>
 </div>
 </div>
    </>
