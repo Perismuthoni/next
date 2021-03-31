@@ -1,7 +1,10 @@
 .resume{
-    padding: 10px;
+    padding: 2vw;
     background-color: lawngreen;
     text-align: center;
+    padding-right: 10px;
+    width: 100vw;
+    height: 100vh;
 }
 .column1 {
     width: 20%;

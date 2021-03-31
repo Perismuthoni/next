@@ -19,9 +19,12 @@ height: 50px;
   
 }
 .home {
-  height: 1000px;
   background-image: url("../images/bg.png");
   color: white;
+  padding: 2vw;
+  width: 100vw;
+  min-height: 100vh;
+  max-height: inherit;
   
 }
 .column {
@@ -33,14 +36,15 @@ height: 50px;
 }
 .dp {
   height: 300px;
-  width: inherit;
+  width: 300px;
+  max-width: 100vw;
 }
 .whatsapp{
   position: fixed;
     width: 60px;
     height: 60px;
-    top: 40px;
-    right: 40px;
+    top: 50px;
+    right: 50px;
     background-color: #25d366;
     color: #FFF;
     border-radius: 40px;

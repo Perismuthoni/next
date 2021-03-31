@@ -7,8 +7,8 @@ import { Whatsapp } from "react-bootstrap-icons";
 function Resume() {
   return (
     <div className="resume">
+      <div id="resume">
         <div className="row">
-        <a href="/home"><button className="buttonh" >HOME</button></a>
         <br></br>
         <p><b><h3><center>MY RESUME</center></h3></b></p>
          <br></br>
@@ -82,6 +82,7 @@ I have also created  my personal portfolio and deployed it to https://muthonimur
      <p><h5><a href="https://wa.me/0701103297">Whatsapp me here <Whatsapp className="whatsapp"/> </a></h5></p><br></br>
      or <br></br>
      <p><h5><a href="tel: +254701103297">click here to call me</a></h5></p>
+     </div>
   </div>
   );
 }

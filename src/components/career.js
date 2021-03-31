@@ -5,6 +5,7 @@ function Career() {
   return (
    <>
    <div className="career">
+   <div id="career">
    <div className="software">
      <p><b><h3>SOFTWARE DEVELOPMENT</h3></b></p>     
      <p><b>MY SKILLS</b></p>
@@ -48,7 +49,7 @@ function Career() {
 </div>
    </div>
    </div>
-
+   </div>
         </>
   );
 }

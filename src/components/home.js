@@ -12,11 +12,11 @@ function Home() {
   return (
   <>
   <div className="home">
+  <div id="home">
   <Nav className="nav">
       <NavItem><img className="logo" src={logo} alt="Logo" /></NavItem>
-      <NavItem> <NavLink href="/home">Home</NavLink></NavItem>
-      <NavItem><NavLink href="/career">Career</NavLink></NavItem>
-      <NavItem><NavLink href="/contact">Contact</NavLink></NavItem>
+      <NavItem> <NavLink href="#home">Home</NavLink></NavItem>
+      <NavItem><NavLink href="#career">Career</NavLink></NavItem>
       <NavItem><NavLink href="/talent">Talent</NavLink></NavItem>
       <a href="https://wa.me/0701103297"><Button> <Whatsapp className="whatsapp"/></Button> </a>
   </Nav>
@@ -39,6 +39,7 @@ function Home() {
    <a href="muthonimuriuki22@gmail.com "> muthonimuriuki22@gmail.com </a><br></br>
    <a href="/resume"><button  className="button">VIEW RESUME</button></a>
 </div>      
+  </div>
   </div>
   </div>
   </>

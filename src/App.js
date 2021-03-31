@@ -13,15 +13,12 @@ import Talent from "./components/talent";
 function App() {
   return (
     <div className="App">
-      <Router > 
-          <Route path={"/home"} component={Home} /> 
+      <Router >  
           <Route path={"/resume"} component={Resume}/>   
-          <Route path={"/message"} component={Message} /> 
           <Route path={"/talent"} component={Talent} />          
           </Router>
       <Home/>
       <Career/>
-      <Talent/>
       <Message/>
       <Contact/>
       <div className="credits">
