@@ -1,0 +1,10 @@
+.nav {
+  background-color: black;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+a.nav-link {
+    color: tomato;
+    text-decoration: none;
+    background-color: transparent;
+}

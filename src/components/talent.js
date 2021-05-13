@@ -1,19 +1,14 @@
 import reactDom from "react-dom";
 import React from "react";
 import "../static/talent.css";
-import { Button,Nav,NavItem, NavLink, } from 'reactstrap';
+//import { Button, } from 'reactstrap';
 import { Instagram } from "react-bootstrap-icons";
-import logo from "../images/logo.jpg";
+
 
 function Talent() {
   return (
     <div className="talent">
- <Nav className="nav">
-      <NavItem><img className="logo" src={logo} alt="Logo" /></NavItem>
-      <NavItem> <NavLink href="#home">Home</NavLink></NavItem>
-      <NavItem><NavLink href="#career">Career</NavLink></NavItem>
-      <NavItem><NavLink href="/talent">Talent</NavLink></NavItem>
-  </Nav>
+ 
 
       <p><a href="https://www.instagram.com/muthoniwritings/?hl=en">muthoniwritings <Instagram/></a></p>
      
